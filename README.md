@@ -1,6 +1,6 @@
 # Automated Farm-Crop-Monitoring-System
 
-## 📌 Executive Summary & Project Background
+##  Executive Summary & Project Background
 The **Automated Farm Crop Monitoring System** is an end-to-end Python data processing engine built to streamline and automate daily agricultural operations. In modern precision agriculture, monitoring environmental parameters—such as soil moisture percentage, ambient air temperature, weekly cumulative rainfall, and pest infestation levels—is critical for maximizing crop yield and preventing catastrophic field loss.
 
 However, raw environmental data collected from field sensors or manual logbooks is often disconnected, prone to human data-entry errors, and difficult to interpret quickly across multiple geographical locations. This system solves that problem by acting as an automated analytics pipeline: it ingests complex farm datasets, runs each record through custom agricultural decision logic, enforces strict input validation, tracks critical environmental alerts, and generates structured analytical summaries for single-farm and multi-farm operations.
@@ -28,7 +28,7 @@ This software was designed, coded, and debugged independently as part of the **S
 
 ---
 
-## 🛠️ Complete Tools & Environment
+## Complete Tools & Environment
 * **Programming Language:** Python 3.x
 * **Integrated Development Environment (IDE):** Jupyter Notebook (`.ipynb`)
 * **Core Data Storage Structures:** Native Python Lists & Dictionaries (`dict`)
@@ -36,7 +36,7 @@ This software was designed, coded, and debugged independently as part of the **S
 
 ---
 
-## 💡 Comprehensive Step-by-Step Technical Walkthrough (From A to Z)
+##  Comprehensive Step-by-Step Technical Walkthrough (From A to Z)
 
 ### Phase 1: Data Schema Architecture & Storage
 To model real-world farm conditions accurately without relying on external libraries, each field entity was structured as a native Python dictionary (`dict`) containing key-value pairs:
@@ -129,7 +129,7 @@ To fulfill the multi-farm analytical challenge, a batch-processing engine was bu
 
 ---
 
-## 🧗 Detailed Debugging Log, Technical Challenges & Solutions
+## Detailed Debugging Log, Technical Challenges & Solutions
 
 Developing this system independently involved encountering and resolving several real-world software bugs and environment hurdles:
 
@@ -155,18 +155,18 @@ Developing this system independently involved encountering and resolving several
 
 ---
 
-## 💻 Installation, Setup & Local Execution Guide
+## Installation, Setup & Local Execution Guide
 
 To run this project locally on a Windows or macOS machine:
 
 1. **Clone the Repository:**
-`git clone https://github.com/your-username/Farm-Crop-Monitoring-System.git`
+`git clone https://github.com/saadah-the-analyst/Farm-Crop-Monitoring-System.git`
 
 2. **Navigate to Directory:**
 `cd Farm-Crop-Monitoring-System`
 
 3. **Launch Notebook Environment:**
-Ensure Python 3 and JupyterLab or Jupyter Notebook are installed on your machine, then run:
+Ensure Python 3 and Jupyter Notebook are installed on your machine, then run:
 `jupyter notebook`
 
 4. **Run Analysis:**
