@@ -38,6 +38,12 @@ This software was designed, coded, and debugged independently as part of the **S
 
 ##  Comprehensive Step-by-Step Technical Walkthrough (From A to Z)
 
+# System Output & Execution Visuals
+![Automated Farm Crop Monitoring System Output](screenshots/1.png)
+*Figure 1: Automated Farm Crop Monitoring System field analysis.*
+
+*To see all 24 Execution logs, view the full gallery inside the [screenshots folder](.screenshots).*
+
 ### Phase 1: Data Schema Architecture & Storage
 To model real-world farm conditions accurately without relying on external libraries, each field entity was structured as a native Python dictionary (`dict`) containing key-value pairs:
 * **name:** Unique identification string for the farm location
