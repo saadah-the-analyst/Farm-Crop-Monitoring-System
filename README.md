@@ -46,8 +46,10 @@ This software was designed, coded, and debugged independently as part of the **S
 
 ### Phase 1: Data Schema Architecture & Storage
 To model real-world farm conditions accurately without relying on external libraries, each field entity was structured as a native Python dictionary (`dict`) containing key-value pairs:
-* **name:** Unique identification string for the farm location
-* **crop:** Type of agricultural commodity cultivated
+* **farm_name:** Unique identification string for the farm location
+* **farm_id:** Unique identifier code for tracking the farm record
+* **crop_name:** Type of agricultural commodity cultivated
+* **farm_size:** Size of the farm land measured in hectares
 * **soil_moisture:** Volumetric soil moisture content measured as a percentage (%)
 * **temperature:** Ambient air temperature recorded in degrees Celsius (°C)
 * **weekly_rainfall:** Total precipitation accumulated over seven days measured in millimeters (mm)
